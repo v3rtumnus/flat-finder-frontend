@@ -9,6 +9,6 @@ node {
         sh 'npm run build'
 
     stage 'Deploy service'
-        sh 'rm -r /var/www/html/flat-finder'
+        sh 'rm -r /var/www/html/flat-finder/*'
         sh 'cp -r build/* /var/www/html/flat-finder'
 }
