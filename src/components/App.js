@@ -10,10 +10,10 @@ class App extends Component {
             <Router>
                 <div className="App">
                     <Header/>
-                    <Route exact path='/' render={() => <RealEstateList view={RealEstateListView.NEW}/>}/>
-                    <Route exact path='/new' render={() => <RealEstateList view={RealEstateListView.NEW}/>}/>
+                    <Route exact path='/' render={() => <RealEstateList view={RealEstateListView.SAVED}/>}/>
+                    <Route exact path='/saved' render={() => <RealEstateList view={RealEstateListView.SAVED}/>}/>
                     <Route exact path='/favorites' render={() => <RealEstateList view={RealEstateListView.FAVORITE}/>}/>
-                    <Route exact path='/archive' render={() => <RealEstateList view={RealEstateListView.ARCHIVE}/>}/>
+                    <Route exact path='/archive' render={() => <RealEstateList view={RealEstateListView.ARCHIVED}/>}/>
 
                 </div>
             </Router>

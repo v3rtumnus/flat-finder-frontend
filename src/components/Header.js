@@ -17,7 +17,7 @@ class Header extends Component {
                 <Navbar.Collapse>
                     <Nav>
                         <NavDropdown title="Immobilien" id="nav-real-estates">
-                            <LinkContainer to="/new">
+                            <LinkContainer to="/saved">
                                 <NavItem>Neue</NavItem>
                             </LinkContainer>
                             <LinkContainer to="/favorites">

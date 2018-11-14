@@ -1,5 +1,5 @@
 export const RealEstateListView = Object.freeze({
-    NEW: Symbol("new"),
+    SAVED: Symbol("saved"),
     FAVORITE: Symbol("favorite"),
-    ARCHIVE: Symbol("archive")
+    ARCHIVED: Symbol("archived")
 });
