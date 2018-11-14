@@ -2,6 +2,9 @@ node {
     stage 'Clone sources'
         git url: 'https://github.com/v3rtumnus/flat-finder-frontend.git'
 
+    stage 'Install dependencies'
+        sh 'npm install'
+
     stage 'Create production build'
         sh 'npm run build'
 
